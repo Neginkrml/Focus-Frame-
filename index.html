@@ -15,32 +15,31 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="hdr-div">
-        <nav class="navigation">
-          <div class="nav-ul-div">
-            <a href="#" class="logo">Focus.Frame</a>
+    <!-- HEADER-HERO -->
+    <section class="first-section">
+      <header class="header">
+        <!-- <div class="hdr-div">
+          <nav class="navigation">
+            <div class="nav-ul-div">
+              <a href="#" class="logo">Focus.Frame</a>
 
-            <ul>
-              <li>ABOUT US</li>
-              <li>OUR COURSES</li>
-              <li>OUR MENTORS</li>
-              <li>REVIEWS</li>
-              <li>CONTACTS</li>
-            </ul>
-          </div>
-          <button>SIGN UP</button>
-        </nav>
-      </div>
-    </header>
+              <ul>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">OUR COURSES</a></li>
+                <li><a href="">OUR MENTORS</a></li>
+                <li><a href="">REVIEWS</a></li>
+                <li><a href="">CONTACTS</a></li>
+              </ul>
+            </div>
+            <a href=""><button>SIGN UP</button></a>
+          </nav>
+        </div> -->
 
-    <main>
-      <!-- FİRST SECTION -->
-      <section class="first-section">
         <div class="hero-cont">
           <div class="hero-about">
             <h1 class="title">
-              Discover the magic of <span>photography</span> in our school
+              Discover the magic of
+              <span class="photography">photography</span> in our school
             </h1>
             <p class="about">
               Our photography school offers an unforgettable journey, where you
@@ -48,25 +47,27 @@
               translate your unique ideas.
             </p>
           </div>
-          <div class="img-div">
+          <div class="header-img">
             <img src="./images/header-img.png" alt="header-img" />
           </div>
         </div>
-      </section>
+      </header>
+    </section>
 
+    <main>
       <!-- SECOND SECTION -->
       <section class="second section">
         <h2 class="alone-title">
-          MASTER YOUR PHOTOGRAPHY <span>SKILL WITH US</span>
+          MASTER YOUR PHOTOGRAPHY <span class="skill">SKILL WITH US</span>
         </h2>
       </section>
 
       <!-- THIRD SECTION -->
       <section class="third-section">
         <div class="about-us">
-          <h2 class="au-title">About Us</h2>
+          <h2 class="au-title">About <span>Us</span></h2>
           <div class="photo-prgrf">
-            <img src="./images/camera.png" alt="camera" />
+            <img class="au-img" src="./images/camera.png" alt="camera" />
             <div class="pharagraphs">
               <p class="au-paragraph">
                 Our photography school is designed to teach you everything you
@@ -93,7 +94,7 @@
       <!-- FOURTH SECTION -->
       <section class="fourth-section">
         <div class="our-courses">
-          <div class="oc-prgrf">
+          <div class="oc-prgrf-kps">
             <h2 class="frth-title">Our <span>Courses</span></h2>
             <p class="oc-prgrf">
               At our photography school, we offer a variety of courses that
@@ -105,24 +106,24 @@
           <div class="species">
             <ul class="oc-ul">
               <li class="oc-li">
-                <p class="">Basics of photography</p>
-                <p>
+                <p class="ol-bslk">Basics of photography</p>
+                <p class="ol-prgrf">
                   During this course, you will be able to familiarize yourself
                   with different types of cameras, learn the basics of
                   composition.
                 </p>
               </li>
               <li class="oc-li">
-                <p>Landscape photography</p>
-                <p>
+                <p class="ol-bslk">Landscape photography</p>
+                <p class="ol-prgrf">
                   In this course, you'll learn how to choose the right angles,
                   frame landscapes, and create depth and perspective in your
                   images.
                 </p>
               </li>
               <li class="oc-li">
-                <p>Portrait photography</p>
-                <p>
+                <p class="ol-bslk">Portrait photography</p>
+                <p class="ol-prgrf">
                   During this course, you will learn to choose the right
                   lighting, reproduce the mood and expressions on the faces of
                   the models.
@@ -137,26 +138,38 @@
       <section class="fifth-section">
         <div class="our-mentors">
           <h2 class="om-title">Our <span>Mentors</span></h2>
-          <ul>
-            <li>
-              <img src="./images/Emilia-Smith.png" alt="Emilia" />
-              <h5>Emilia Smith</h5>
-              <p>1.5 years of experience</p>
+          <ul class="om-ul">
+            <li class="om-li">
+              <img
+                class="om-img"
+                src="./images/Emilia-Smith.png"
+                alt="Emilia"
+              />
+              <div class="om-yazi">
+                <h5 class="om-name">Emilia Smith</h5>
+                <p class="om-prgrf">1.5 years of experience</p>
+              </div>
             </li>
-            <li>
-              <img src="./images/Alex.png" alt="Alex" />
-              <h5>Alex Lebedev</h5>
-              <p>3.5 years of experience</p>
+            <li class="om-li">
+              <img class="om-img" src="./images/Alex.png" alt="Alex" />
+              <div class="om-yazi">
+                <h5 class="om-name">Alex Lebedev</h5>
+                <p class="om-prgrf">3.5 years of experience</p>
+              </div>
             </li>
-            <li>
-              <img src="./images/Mia.png" alt="Mia" />
-              <h5>Mia Dubrovska</h5>
-              <p>2.0 years of experience</p>
+            <li class="om-li">
+              <img class="om-img" src="./images/Mia.png" alt="Mia" />
+              <div class="om-yazi">
+                <h5 class="om-name">Mia Dubrovska</h5>
+                <p class="om-prgrf">2.0 years of experience</p>
+              </div>
             </li>
-            <li>
-              <img src="./images/Eliot.png" alt="Eliot" />
-              <h5>Eliot Kovale</h5>
-              <p>4.0 years of experience</p>
+            <li class="om-li">
+              <img class="om-img" src="./images/Eliot.png" alt="Eliot" />
+              <div class="om-yazi">
+                <h5 class="om-name">Eliot Kovale</h5>
+                <p class="om-prgrf">4.0 years of experience</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -165,11 +178,56 @@
       <!-- SIXTH SECTION -->
       <section class="sixth-section">
         <div class="f-and-photo">
-          <div class="form"></div>
-          <div>
+          <div class="form">
+            <h2 class="sign-up-title">Sign <span>Up</span></h2>
+            <p class="sign-up-text">
+              Please use the form below to contact us. Enter your name, email,
+              and message and we'll get back to you shortly.
+            </p>
+            <form class="sign-up-form">
+              <div class="sign-up-input-wrap">
+                <label class="sign-up-label" for="name">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    pattern="[A-Za-z\s-]+"
+                    title="Username must be two words separated by space."
+                    placeholder="Enter your name"
+                    required
+                  />
+                </label>
+                <label class="sign-up-label" for="email">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </label>
+                <label class="sign-up-label" for="comment">
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    placeholder="Message"
+                  ></textarea>
+                </label>
+              </div>
+
+              <button type="submit" class="sign-up-button">Send</button>
+              <p class="sign-up-policy-text">
+                By clicking on “Send” button, you agree to our
+                <a href="#" class="sign-up-link">Privacy Policy</a>, <br />and
+                allow Promodo to use this information for marketing purposes.
+              </p>
+            </form>
+          </div>
+          <!-- <div>
             <img src="./images/small-camera.png" alt="small-camera" />
             <img src="./images/big-camera.png" alt="big-camera" />
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -187,7 +245,7 @@
                 </div>
                 <p>
                   I am very pleased that I decided to enroll in photography
-                  school. The teachers turned out to be very talented and
+                  school. The teachers turn ed out to be very talented and
                   experienced professionals who share their knowledge and are
                   dedicated to their work. I was able to expand my skills and
                   discover my own style.
